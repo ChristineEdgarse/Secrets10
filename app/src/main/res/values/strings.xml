@@ -1,0 +1,428 @@
+<resources>
+    <string name="app_name">Uni Demo V2.1</string>
+    <string name="search_hint">Search Uni</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="msg_failed_to_get_picture">Failed to get image</string>
+    <string name="txt_info">Quick sample for selecting images on Android</string>
+    <string name="msg_failed_to_get_intent_data">Picture select cancelled</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="picture_too_small">Picture is too small</string>
+
+    <string name="empty_email">Email is empty!</string>
+    <string name="empty_password">Password is empty!</string>
+
+    <string name="invalid_email">Please use a college or university email</string>
+
+
+    <string-array name="spinner_register1">
+        <item>Memorial University</item>
+        <item>Marine Institute</item>
+        <item>College of the North Atlantic Prince Phillip Drive</item>
+        <item>College of the North Atlantic Seal Cove</item>
+        <item>College of the North Atlantic Ridge Road</item>
+    </string-array>
+
+    <string-array name="spinner_register2">
+        <item>Option 1</item>
+        <item>Option 2</item>
+    </string-array>
+
+    <string-array name="PSE_array">
+        <item>Memorial University</item>
+        <item>Marine Institute</item>
+        <item>College of the North Atlantic Prince Phillip Drive</item>
+        <item>College of the North Atlantic Seal Cove</item>
+        <item>College of the North Atlantic Ridge Road</item>
+    </string-array>
+
+    <string-array name="Studying_array">
+        <item>Option 1</item>
+        <item>Option 2</item>
+    </string-array>
+
+    <string-array name="Gender_array">
+        <item>Female</item>
+        <item>Male</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="Category_array">
+        <item>Apparel</item>
+        <item>Electronics</item>
+        <item>Furniture</item>
+        <item>Housing</item>
+        <item>School Supplies</item>
+        <item>Textbooks &amp; Notes</item>
+        <item>Vehicles</item>
+        <item>Other</item>
+    </string-array>
+
+    <array name="Category_images">
+        <item>@drawable/cat_clothing</item>
+        <item>@drawable/cat_electronics</item>
+        <item>@drawable/cat_furniture</item>
+        <item>@drawable/cat_housing</item>
+        <item>@drawable/cat_supplies</item>
+        <item>@drawable/cat_textbooks</item>
+        <item>@drawable/cat_vehicles</item>
+        <item>@drawable/cat_other</item>
+    </array>
+
+    <array name="PPL_images_mock">
+        <item>@drawable/ruby</item>
+        <item>@drawable/yang</item>
+        <item>@drawable/weiss</item>
+        <item>@drawable/blake</item>
+        <item>@drawable/kobori</item>
+        <item>@drawable/salama</item>
+        <item>@drawable/sylphy</item>
+        <item>@drawable/muse</item>
+    </array>
+
+    <string-array name="Usernames_mock">
+        <item>Ruby</item>
+        <item>Yang</item>
+        <item>Weiss</item>
+        <item>Blake</item>
+        <item>Kobori</item>
+        <item>Salama</item>
+        <item>Sylphy</item>
+        <item>Muse</item>
+    </string-array>
+
+    <string-array name="Ratings_mock">
+        <item>85</item>
+        <item>62</item>
+        <item>89</item>
+        <item>92</item>
+        <item>91</item>
+        <item>77</item>
+        <item>58</item>
+        <item>86</item>
+    </string-array>
+
+    <string-array name="PSE_mock">
+        <item>Memorial University</item>
+        <item>College of the North Atlantic Ridge Road</item>
+        <item>Memorial University</item>
+        <item>College of the North Atlantic Prince Phillip Drive</item>
+        <item>Memorial University</item>
+        <item>College of the North Atlantic Seal Cove</item>
+        <item>Marine Institute</item>
+        <item>Marine Institute</item>
+    </string-array>
+
+    <string-array name="Studying_mock">
+        <item>Option1</item>
+        <item>Option2</item>
+        <item>Option3</item>
+        <item>Option4</item>
+        <item>Option5</item>
+        <item>Option6</item>
+        <item>Option7</item>
+        <item>Option8</item>
+    </string-array>
+
+    <string-array name="ItemsSold_mock">
+        <item>9</item>
+        <item>11</item>
+        <item>31</item>
+        <item>24</item>
+        <item>19</item>
+        <item>8</item>
+        <item>15</item>
+        <item>21</item>
+    </string-array>
+
+    <string-array name="Item_mock">
+        <item>Apple Laptop</item>
+        <item>Star Wars Poster</item>
+        <item>Wood Dresser</item>
+        <item>Asus Gaming Laptop</item>
+        <item>Floral Print Summer Dress</item>
+        <item>Mac Book Laptop</item>
+        <item>Black Leather Couch</item>
+        <item>Asus Laptop</item>
+        <item>Black Hall Bench</item>
+        <item>Floral Couch</item>
+        <item>The City of Ember</item>
+        <item>Wood Cabinet</item>
+        <item>Mona Lisa Poster</item>
+        <item>Record Player</item>
+        <item>White Summer Dress</item>
+    </string-array>
+
+    <string-array name="Price_mock">
+        <item>200</item>
+        <item>15</item>
+        <item>35</item>
+        <item>175</item>
+        <item>20</item>
+        <item>500</item>
+        <item>125</item>
+        <item>100</item>
+        <item>40</item>
+        <item>60</item>
+        <item>5</item>
+        <item>45</item>
+        <item>10</item>
+        <item>40</item>
+        <item>25</item>
+    </string-array>
+
+    <array name="Item_images">
+        <item>@drawable/ad1</item>
+        <item>@drawable/ad3</item>
+        <item>@drawable/ad14</item>
+        <item>@drawable/ad7</item>
+        <item>@drawable/ad5</item>
+        <item>@drawable/ad8</item>
+        <item>@drawable/ad9_1</item>
+        <item>@drawable/ad6</item>
+        <item>@drawable/ad10_1</item>
+        <item>@drawable/ad11_1</item>
+        <item>@drawable/ad12_1</item>
+        <item>@drawable/ad13</item>
+        <item>@drawable/ad2</item>
+        <item>@drawable/ad15</item>
+        <item>@drawable/ad4</item>
+    </array>
+
+
+    <array name="Item_images_secondary">
+        <item>@drawable/ad9_2</item>
+        <item>@drawable/ad10_2</item>
+        <item>@drawable/ad11_2</item>
+        <item>@drawable/ad12_2</item>
+    </array>
+
+    <string-array name="chatID_mock">
+        <item>9</item>
+        <item>11</item>
+        <item>31</item>
+        <item>24</item>
+        <item>19</item>
+        <item>8</item>
+        <item>15</item>
+        <item>21</item>
+        <item>00</item>
+        <item>42</item>
+    </string-array>
+
+    <string-array name="Studying_array_MUN">
+        <item>Anthropology</item>
+        <item>Aquaculture</item>
+        <item>Archaeology</item>
+        <item>Biochemistry</item>
+        <item>Biology</item>
+        <item>Boreal Ecosystems &amp; Agri. Sci.</item>
+        <item>Business &amp; Org. Mgmt.</item>
+        <item>Business Admin (Grenfell)</item>
+        <item>Business Administration</item>
+        <item>Chemistry</item>
+        <item>Classics</item>
+        <item>Cognitive &amp; Behaviour Ecology</item>
+        <item>Communication Skills</item>
+        <item>Communication Studies</item>
+        <item>Computer Science</item>
+        <item>Earth Sciences</item>
+        <item>Economics</item>
+        <item>Educ. &amp; Francophone Lit. &amp; Cult.</item>
+        <item>Education</item>
+        <item>Electronics</item>
+        <item>Electrotechnology</item>
+        <item>Employment Relations</item>
+        <item>Engineering</item>
+        <item>Engineering Graphics</item>
+        <item>Engineering Systems</item>
+        <item>English</item>
+        <item>Environmental Policy</item>
+        <item>Environmental Science</item>
+        <item>Environmental Studies</item>
+        <item>Ethnomusicology</item>
+        <item>Fluids</item>
+        <item>Folklore</item>
+        <item>Food Technology</item>
+        <item>French</item>
+        <item>Gender Studies</item>
+        <item>Geography</item>
+        <item>German</item>
+        <item>Health Privacy Law Training</item>
+        <item>History</item>
+        <item>Human Kinetics and Recreation</item>
+        <item>Humanities</item>
+        <item>Instrumentation and Controls</item>
+        <item>Interdisciplinary</item>
+        <item>Language</item>
+        <item>Law and Society</item>
+        <item>Linguistics</item>
+        <item>Marine Biology</item>
+        <item>Marine Eng. Knowledge</item>
+        <item>Marine Environment</item>
+        <item>Maritime Stds/Tech Mgmt</item>
+        <item>Materials and Processes</item>
+        <item>Mathematics</item>
+        <item>Mathematics - Statistics</item>
+        <item>Mechanics</item>
+        <item>Medicine</item>
+        <item>Medieval Studies</item>
+        <item>Mobility</item>
+        <item>Music</item>
+        <item>Nautical Science</item>
+        <item>Naval Architecture</item>
+        <item>Nursing</item>
+        <item>Ocean Mapping</item>
+        <item>Ocean Sciences</item>
+        <item>Oceanography</item>
+        <item>Orientation</item>
+        <item>Pharmacy</item>
+        <item>Philosophy</item>
+        <item>Physics</item>
+        <item>Police Studies</item>
+        <item>Political Science</item>
+        <item>Post Graduate Certificate</item>
+        <item>Psychology</item>
+        <item>Quality Assurance</item>
+        <item>Religious Studies</item>
+        <item>Remotely Oper Vehicle Operator</item>
+        <item>Resource Management</item>
+        <item>Russian</item>
+        <item>Safety</item>
+        <item>Science</item>
+        <item>Scientific Computing</item>
+        <item>Social Work</item>
+        <item>Social/Cultural Studies</item>
+        <item>Sociology</item>
+        <item>Spanish</item>
+        <item>Technical Project</item>
+        <item>Theatre</item>
+        <item>Theoretical Physics</item>
+        <item>Thermodynamics</item>
+        <item>Tourism</item>
+        <item>University</item>
+        <item>Visual Arts</item>
+        <item>Work Term</item>
+        <item>Workshop Practice</item>
+    </string-array>
+
+    <string-array name="Studying_array_MI">
+        <item>Aquaculture (Mussel/Salmonid)</item>
+        <item>Bridge Watch</item>
+        <item>Fire Rescue</item>
+        <item>Food Safety</item>
+        <item>Food Safety - Post Graduate Certificate</item>
+        <item>Food Technology</item>
+        <item>Marine Diesel Mechanics</item>
+        <item>Marine Engineering</item>
+        <item>Marine Engineering Systems Design</item>
+        <item>Marine Environmental Technology</item>
+        <item>Marine Studies (Fisheries Resource Management)</item>
+        <item>Marine Studies (Marine Spatial Planning and Management)</item>
+        <item>Maritime Management</item>
+        <item>Maritime Studies</item>
+        <item>Nautical Science</item>
+        <item>Naval Architecture</item>
+        <item>Ocean Mapping</item>
+        <item>Quality Management</item>
+        <item>Remotely Operated Vehicles (ROV Operator)</item>
+        <item>Sustainable Aquaculture</item>
+        <item>Technology</item>
+        <item>Technology Management (Aquaculture Technology)</item>
+        <item>Technology Management (Engineering/Applied Science Technology)</item>
+        <item>Underwater Vehicles</item>
+        <item>Water Quality</item>
+    </string-array>
+
+    <string-array name="Studying_array_CNA">
+        <item>Aboriginal Bridging Program</item>
+        <item>Aircraft Maintenance Engineering Technician</item>
+        <item>Aircraft Structural Repair Technician</item>
+        <item>Architectural Engineering Technology</item>
+        <item>Automotive Service Technician</item>
+        <item>Baker</item>
+        <item>Business Administration</item>
+        <item>Cabinetmaker</item>
+        <item>Carpenter</item>
+        <item>Chemical Process Engineering Technology (Co-op)</item>
+        <item>Civil Engineering Technology (Co-op)</item>
+        <item>Commercial Driver</item>
+        <item>Community Recreation Leadership</item>
+        <item>Community Studies</item>
+        <item>Comprehensive Arts &amp; Science (CAS)</item>
+        <item>Computer Systems and Networking</item>
+        <item>Computing Systems Engineering Technology (Co-op)</item>
+        <item>Construction / Industrial Electrician</item>
+        <item>Cook</item>
+        <item>Diagnostic Ultrasonography</item>
+        <item>Digital Animation</item>
+        <item>Digital Filmmaking</item>
+        <item>Early Childhood Education</item>
+        <item>Electrical Engineering Technology (Power &amp; Controls) Co-op</item>
+        <item>Electronic Systems Engineering Technology (Co-op)</item>
+        <item>Electronics Engineering Technology (Biomedical)</item>
+        <item>Engineering Technology (First Year)</item>
+        <item>Environmental Engineering Technology - Advanced Diploma</item>
+        <item>Fish and Wildlife Technician</item>
+        <item>Forest Resources Technician</item>
+        <item>Geomatics/Surveying Engineering Technology (Co-op)</item>
+        <item>GIS Applications Specialist (Post Diploma)</item>
+        <item>Graphic Communications</item>
+        <item>Graphic Design</item>
+        <item>Hairstylist</item>
+        <item>Health Informatics (Post Diploma)</item>
+        <item>Heavy Duty Equipment Technician/Truck and Transport Mechanic</item>
+        <item>Heavy Equipment Operator</item>
+        <item>Home Support Worker / Personal Care Attendant</item>
+        <item>Industrial Engineering Technology (Co-op)</item>
+        <item>Industrial Mechanic (Millwright)</item>
+        <item>Information Management (Post Diploma)</item>
+        <item>Instrumentation and Control Technician</item>
+        <item>Instrumentation and Controls Engineering Technology</item>
+        <item>Journalism</item>
+        <item>Journalism (Post Diploma)</item>
+        <item>Machinist</item>
+        <item>Mechanical Engineering Technology</item>
+        <item>Mechanical Engineering Technology (Manufacturing) Co-op</item>
+        <item>Medical Laboratory Assistant</item>
+        <item>Medical Laboratory Sciences</item>
+        <item>Medical Radiography</item>
+        <item>Metal Fabricator (Fitter)</item>
+        <item>Mining Technician</item>
+        <item>Mobile Crane Operator</item>
+        <item>Motor Vehicle Body Repairer (Metal And Paint)</item>
+        <item>Music: Performance, Business &amp; Technology</item>
+        <item>Non-Destructive Testing Technician</item>
+        <item>Office Administration</item>
+        <item>Petroleum Engineering Technology (Co-op)</item>
+        <item>Plumber</item>
+        <item>Power Engineer 4th Class</item>
+        <item>Powerline Technician (Operating)</item>
+        <item>Practical Nursing</item>
+        <item>Primary Care Paramedicine</item>
+        <item>Process Operations Engineering Technology</item>
+        <item>Programmer Analyst (Business) Co-op</item>
+        <item>Refrigeration &amp; Air Conditioning Mechanic</item>
+        <item>Rehabilitation Assistant (OTA &amp; PTA) (DL)</item>
+        <item>Renovation Technician</item>
+        <item>Respiratory Therapy</item>
+        <item>Safety Engineering Technology (Post Diploma) Co-op</item>
+        <item>Sheet Metal Worker</item>
+        <item>Small Equipment Service Technician</item>
+        <item>Software Development</item>
+        <item>Sound Recording &amp; Production</item>
+        <item>Steamfitter / Pipefitter</item>
+        <item>Textiles: Craft &amp; Apparel Design</item>
+        <item>Tourism &amp; Hospitality</item>
+        <item>Video Game Art &amp; Design</item>
+        <item>Web Development</item>
+        <item>Welder</item>
+        <item>Welder / Metal Fabricator (Fitter)</item>
+        <item>Welding Engineering Technician</item>
+        <item>X-Ray Skills for Medical Laboratory Technologists</item>
+    </string-array>
+
+</resources>

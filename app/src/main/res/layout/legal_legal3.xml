@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/WHITE">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/confirmhost">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uni Prohibited Posting Policy"
+            android:id="@+id/textView39"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:paddingLeft="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView6"
+            android:layout_above="@+id/cbLegal"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:text="
+Adult Materials
+Including pornography, nude photos, videos, articles or erotic products
+Including prostitution, escort or accompanying services
+Alcohol
+Including the delivery of alcohol and related beverages
+Note: Selling empty bottles, labels, caps as collectibles is permitted
+Baby Walkers
+Blood, Bodily Fluids and Body Parts
+Including organs
+Including surrogacy, fertility and donor requests (including sperm) 
+Burglary Tools
+Car seats and booster seats (manufactured prior to January 1st, 2012)
+Child adoption services (seeking and offering)
+Counterfeit items and distribution of copyrighted material
+Including currency, stamps, coins
+Including e-books
+Electronic Surveillance Equipment 
+Designed or used primarily to illegally intercept/record the private actions or interactions of others without their knowledge or permission
+Embargoed Goods
+Government issued IDs, Badges, Uniforms and Licenses 
+Including transit, military, police, postal, etc.
+Hazardous Materials 
+Including chemicals, pesticides, fireworks
+Including commercial-level fertilizers or pesticides.  Ie. Aerial pesticides or fertilizers used for dusting crops
+Health or Weight Loss Products that have not been approved by Health Canada
+High-Powered Laser Pointers
+Illegal Drugs and Drug Paraphernalia (or any mention of related items, services or activities)
+Including narcotics, steroids, marijuana, medicinal marijuana, etc. 
+Illegal Items and Services
+Ivory or Bone 
+Including fossilized mammoth tusks
+Note: Antiques that contain 5% or less of real ivory and were made before the year 1900, specifically musical instruments and furniture, are permitted. The year the item was manufactured as well as an image must be included in the ad.
+Note: Bone, including fossilized teeth or bone, from non-ivory producing animals is permitted.  The species must be indicated in the ad. 
+Identity Documents, Personal Financial Records &amp; Personal Information
+In any form, including mailing lists
+Knives
+Note: Collectable knives and swords (unsharpened, fantasy/antique) and kitchen utensils &amp; cutlery are permitted
+Lottery Tickets, Sweepstakes Entries and Coin Operated Slot Machines
+Massage Services
+Ad images are to be limited to head shots or photographs of the facility (no full body images)
+Note: Ads posted by a Registered Massage Therapist (RMT) who is able to provide insurance receipts for customers is permitted
+Note: Massage as part of an aesthetics package by a registered Aesthetician, but not offered on its own, is permitted
+New merchandise or services from network marketing companies, independent franchisees or distributors, or similar representatives
+Including items in the Buy and Sell category or ads attempting to recruit new representatives
+Note: Representatives from reputable direct sale companies (such as Avon and Tupperware) are permitted to post one (1) ad in the most appropriate Services Category of their closest Kijiji City, advertising their presence or any new product lines or promotions that are available
+Offensive and Obscene Material
+Including Nazi related artefacts and collectibles
+Note: This excludes stamps, letters and envelopes with the Nazi symbol, currency issued by the Nazi government, military scripts and historically accurate WWII military model kits that have Nazi symbols
+Prescription Drugs and Devices
+Recalled items
+Satellite products that violate the Radio-communication Act
+Stocks and Other Securities
+Stolen Property
+Taxidermied Animals
+Tobacco Products or other smoking related items
+Including hookahs, e-cigarettes, herbal blends, etc
+Used Cosmetics
+Weapons (or any mention of related items, services or activities)  
+Including firearms, firearm parts and magazines, ammunition, BB and pellet guns, replica weapons, tear gas, stun guns, crossbows and martial arts weapons
+Including Airsoft guns, parts and ammunition
+Note: Archery and paintball equipment are permitted"
+                android:id="@+id/textView31"
+                android:textColor="#000000"
+                android:paddingLeft="16dp"
+                android:paddingRight="8dp"
+                android:lineSpacingExtra="6dp"/>
+        </ScrollView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/Header"
+            android:background="@color/colorPrimary"
+            android:id="@+id/ConfirmHolder" >
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/confirmhost">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Close"
+            android:id="@+id/legalcancel"
+            android:layout_centerHorizontal="true"
+            android:background="@color/WHITE"
+            android:layout_below="@+id/forgotpassemail"
+            android:layout_weight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/LIGHTGREY"
+            android:onClick="cancel" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:id="@+id/legalconfirm3"
+            android:layout_centerHorizontal="true"
+            android:background="@color/BLUE"
+            android:layout_below="@+id/forgotpassemail"
+            android:layout_weight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/WHITE" />
+
+    </LinearLayout>
+
+</RelativeLayout>

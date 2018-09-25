@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/WHITE">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/confirmhost">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Equal Housing Opportunity"
+            android:id="@+id/textView39"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:paddingLeft="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView6"
+            android:layout_above="@+id/cbLegal"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:text="Uni Software Productions Inc. supports equality in housing and we encourage users of our site to follow appropriate guidelines to comply with the human rights legislation that is in place in all of Canada’s provinces and territories, as well as any applicable local regulations. These laws prohibit denying a person housing, or discriminating in a tenancy agreement, based on the following prohibited grounds:
+ 
+• Gender and gender-determined characteristics, including pregnancy;
+• Age;
+• Race or perceived race, ethnic background or origin, colour, or aboriginal origin;
+• Ancestry, nationality, or place of origin;
+• Religion, creed, religious beliefs, religious associations or religious activities;
+• Physical or mental disability, or reliance on any remedial device to alleviate these conditions;
+• Marital or familial status;
+• Sexual orientation;
+• Lawful source of income, including the receipt of public assistance;
+• Social condition;
+• Political beliefs, convictions, associations or activities;
+• Citizenship;
+• Language;
+• Disfigurement, or irrational fear of contracting an illness or disease;
+• Criminal charges or a criminal record; or
+• An individual's association with another individual or class of individuals having these characteristics
+ 
+Property Owner's &amp; Manager's Responsibilities:
+As a property owner or manager you have a responsibility not to discriminate in the rental of property on the basis of the prohibited grounds of discrimination in force in your jurisdiction. Similarly, persons acting on your behalf in a rental transaction have a responsibility not to discriminate on the basis of the prohibited grounds of discrimination in force in your jurisdiction. It is not permitted to comply with a request from a property owner or manager to act in a discriminatory manner in a lease or rental. Moreover, a property owner or manager cannot establish discriminatory terms or conditions in the purchase or rental of a residential dwelling, deny that housing is available, or advertise that the property is available only to persons of a certain gender, age, race, colour, religion, sexual orientation, handicap, familial status, national origin, or any other prohibited ground of discrimination in force in your jurisdiction.
+ 
+Renter's Rights:
+As someone seeking to rent an apartment, home or condo, you have the right to expect that housing will be available to you without discrimination or other limitations based on the prohibited grounds of discrimination in force in your jurisdiction. This includes the right to expect equal professional service, the opportunity to consider a broad range of housing choices, no discriminatory limitations on communities or locations of housing, no discrimination in the pricing or financing of housing, reasonable accommodations in rules, practices and procedures for persons with disabilities, and to be free from harassment or intimidation for exercising your rights. 
+ 
+Provincial and Territorial Law:
+The prohibited grounds of discrimination vary between each of Canada’s provinces and territories and as such the prohibited grounds of discrimination in your location may differ from those listed in the Uni Software Productions Inc. Equality in Housing Policy. Please inform yourself about the human rights legislation applicable in your location. If you encounter an Ad that you believe is discriminatory and you believe that it violates the Uni Software Productions Inc. Equality in Housing Policy, please flag the Ad as prohibited. Uni Software Productions Inc. reserves the right to remove an ad if it is flagged on any of our sites, or if we believe it causes problems or violates any law, policy, these terms, or of any party’s rights.
+"
+                android:id="@+id/textView31"
+                android:textColor="#000000"
+                android:paddingLeft="16dp"
+                android:paddingRight="8dp"
+                android:lineSpacingExtra="6dp"/>
+        </ScrollView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/Header"
+            android:background="@color/colorPrimary"
+            android:id="@+id/ConfirmHolder" >
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/confirmhost">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Finish"
+            android:id="@+id/legalconfirm4"
+            android:layout_centerHorizontal="true"
+            android:background="@color/BLUE"
+            android:layout_below="@+id/forgotpassemail"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/WHITE"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</RelativeLayout>
